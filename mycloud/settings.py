@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-wx8cyt+)#o!8f&7rrz!$5-s$*e_kciv44gycm!l0y9p83js83j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '89.104.70.129']
+ALLOWED_HOSTS = ['localhost', '89.104.70.129']
 
 EMAIL_HOST = 'localhost'
 EMAIL_PORT = '25'
@@ -92,7 +92,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'cloud',
-        'HOST': '127.0.0.1',
+        'HOST': 'localhost',
         'PORT': '5432',
         'USER': 'postgres',
         'PASSWORD': 'D123-v456-A789#',
